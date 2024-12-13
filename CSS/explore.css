@@ -1,0 +1,209 @@
+.explore-page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 2rem;
+  margin: 0.5rem auto;
+  border: solid black 2px;
+  border-radius: 2rem;
+  background-image: url("../IMG/william-bout-264826.jpg");
+}
+.explore-page-overall-container {
+  display: flex;
+  justify-content: center;
+  gap: 2.5%;
+  font-size: 1.1rem;
+}
+.for-kids-container {
+  width: 25%;
+  height: 33rem;
+  padding: 0.5rem;
+  border: solid black 2px;
+  border-radius: 2rem;
+  background-image: url("../IMG/for-kids.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.for-teachers-continer {
+  width: 25%;
+  height: 33rem;
+  padding: 0.5rem;
+  border: solid black 2px;
+  border-radius: 2rem;
+  background-image: url("../IMG/for-teachers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.researchers-continer {
+  width: 25%;
+  height: 33rem;
+  padding: 0.5rem;
+  border: solid black 2px;
+  border-radius: 2rem;
+  background-image: url("../IMG/for-researchers.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-rocket {
+  height: 10rem;
+  margin-left: 40rem;
+  border-radius: 2rem;
+  rotate: 130deg;
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .explore-page-titl {
+    width: 15rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+  }
+  .explore-page-overall-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.5%;
+    font-size: 1rem;
+  }
+  .for-kids-container {
+    width: 95%;
+    height: 40rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .for-teachers-continer {
+    width: 95%;
+    height: 40rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .researchers-continer {
+    width: 95%;
+    height: 40rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-rocket {
+    width: 10%;
+    height: 10rem;
+    margin-left: 10rem;
+    rotate: 125deg;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .explore-page-titl {
+    width: 15rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+  }
+  .explore-page-overall-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.5%;
+    font-size: 1rem;
+  }
+  .for-kids-container {
+    width: 95%;
+    height: 40rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .for-teachers-continer {
+    width: 95%;
+    height: 40rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .researchers-continer {
+    width: 95%;
+    height: 40rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-rocket {
+    width: 10%;
+    height: 10rem;
+    margin-left: 9.5rem;
+    rotate: 115deg;
+  }
+}
+@media (min-width: 431px) and (max-width: 768px) {
+  .explore-page-titl {
+    width: 15rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+  }
+  .explore-page-overall-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5%;
+    font-size: 1rem;
+  }
+  .for-kids-container {
+    width: 95%;
+    height: 34rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .for-teachers-continer {
+    width: 95%;
+    height: 40rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .researchers-continer {
+    width: 95%;
+    height: 40rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-rocket {
+    width: 30%;
+    height: 10rem;
+    margin-left: 9.5rem;
+    rotate: 125deg;
+  }
+}
+@media (min-width: 350px) and (max-width: 440px) {
+  .explore-page-titl {
+    width: 15rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+  }
+  .explore-page-overall-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5%;
+    font-size: 1rem;
+  }
+  .for-kids-container {
+    width: 95%;
+    height: 34rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .for-teachers-continer {
+    width: 95%;
+    height: 40rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .researchers-continer {
+    width: 95%;
+    height: 40rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-rocket {
+    width: 30%;
+    height: 10rem;
+    margin-left: 9.5rem;
+    rotate: 118deg;
+  }
+}

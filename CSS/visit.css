@@ -1,0 +1,440 @@
+.visit-page-overall-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+}
+.visit-page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 2rem;
+  margin: 0.5rem auto;
+  border: solid black 2px;
+  border-radius: 2rem;
+  background-image: url("../IMG/william-bout-264826.jpg");
+}
+.museum-info {
+  width: 45%;
+  height: 33rem;
+  padding: 0.5rem;
+  border: solid black 2px;
+  border-radius: 2rem;
+  background-image: url("../IMG/museum-info-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.located-title {
+  color: rgb(71, 6, 109);
+}
+.Admission-title {
+  color: rgb(71, 6, 109);
+}
+.visit-page-location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 50%;
+  margin-top: -1rem;
+}
+.visit-page-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 50%;
+  margin-top: -1rem;
+}
+.opening-hours-title {
+  display: flex;
+  color: rgb(71, 6, 109);
+}
+.opening-hours-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 1.2rem;
+  padding: 0;
+}
+.other-museum-info-container {
+  width: 45%;
+  height: 33rem;
+  padding: 0.5rem;
+  border: solid black 2px;
+  border-radius: 2rem;
+  background-image: url("../IMG/museum-additional-info-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.accessibility-title {
+  display: flex;
+  align-items: center;
+  color: rgba(136, 74, 171, 1);
+}
+.accessibility-info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 70%;
+  margin-top: 1rem;
+}
+.food-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(136, 74, 171, 1);
+}
+.food-info-text {
+  display: flex;
+  width: 50%;
+  margin-top: 1rem;
+  margin-left: 10rem;
+}
+.shop-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(136, 74, 171, 1);
+  margin-top: 4rem;
+  margin-left: 1rem;
+}
+.shop-info-text {
+  display: flex;
+  width: 50%;
+  margin-top: 1rem;
+  margin-left: 14rem;
+}
+.footer-rocket {
+  height: 10rem;
+  margin-left: 10rem;
+  border-radius: 2rem;
+  rotate: 129deg;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .visit-page-title {
+    display: flex;
+    width: 20rem;
+    height: 2rem;
+    margin: 0.5rem auto;
+    margin-bottom: 1rem;
+  }
+
+  .visit-page-overall-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.25rem;
+  }
+
+  .museum-info {
+    width: 100%;
+    height: 30rem;
+    padding: 0rem;
+    margin-top: 0rem;
+  }
+
+  .located-title {
+    margin-top: 1rem;
+    padding: 0.2rem;
+  }
+
+  .Admission-title {
+    margin-top: 1rem;
+  }
+
+  .visit-page-location {
+    width: 80%;
+    margin-top: -1rem;
+  }
+
+  .visit-page-info {
+    width: 70%;
+    margin-top: -1rem;
+    padding: 0;
+  }
+  .opening-hours-list {
+    width: 80%;
+    margin-top: -1rem;
+    margin-left: 0rem;
+    font-size: 1.1rem;
+  }
+
+  .other-museum-info-container {
+    width: 100%;
+    height: 30rem;
+    padding: 0rem;
+    margin-top: 0rem;
+  }
+  .accessibility-info-text {
+    width: 60%;
+    margin-top: -1rem;
+  }
+  .food-info-text {
+    width: 60%;
+    margin-top: -1rem;
+    margin-left: 8rem;
+  }
+
+  .shop-title {
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .shop-info-text {
+    width: 60%;
+    margin-top: -1rem;
+    margin-left: 8rem;
+  }
+  .footer-rocket {
+    height: 5rem;
+    margin-left: 5rem;
+    rotate: 129deg;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .visit-page-title {
+    display: flex;
+    width: 15rem;
+    height: 2rem;
+    margin: 0.5rem auto;
+    margin-bottom: 1rem;
+  }
+
+  .visit-page-overall-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.25rem;
+  }
+
+  .museum-info {
+    width: 100%;
+    height: 30rem;
+    padding: 0rem;
+    margin-top: 0rem;
+  }
+
+  .located-title {
+    margin-top: 1rem;
+    padding: 0.2rem;
+  }
+
+  .Admission-title {
+    margin-top: 1rem;
+  }
+
+  .visit-page-location {
+    width: 80%;
+    margin-top: -1rem;
+  }
+
+  .visit-page-info {
+    margin-top: -1rem;
+    width: 70%;
+    padding: 0;
+  }
+  .opening-hours-list {
+    width: 80%;
+    margin-top: -1rem;
+    margin-left: 0rem;
+    font-size: 1.1rem;
+  }
+
+  .other-museum-info-container {
+    width: 100%;
+    height: 30rem;
+    padding: 0rem;
+    margin-top: 0rem;
+  }
+  .accessibility-info-text {
+    width: 60%;
+    margin-top: -1rem;
+  }
+  .food-info-text {
+    width: 60%;
+    margin-top: -1rem;
+    margin-left: 8rem;
+  }
+
+  .shop-title {
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .shop-info-text {
+    width: 60%;
+    margin-top: -1rem;
+    margin-left: 8rem;
+  }
+
+  .footer-rocket {
+    height: 5rem;
+    margin-left: 5rem;
+    rotate: 129deg;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 768px) {
+  .visit-page-title {
+    display: flex;
+    width: 10rem;
+    height: 2rem;
+    margin: 0.5rem auto;
+    margin-bottom: 1rem;
+  }
+
+  .visit-page-overall-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .museum-info {
+    width: 95%;
+    height: 30rem;
+    padding: 0rem;
+    margin-top: 0rem;
+  }
+
+  .located-title {
+    margin-top: 1rem;
+    padding: 0.2rem;
+  }
+
+  .Admission-title {
+    margin-top: 1rem;
+  }
+
+  .visit-page-location {
+    width: 80%;
+    margin-top: -1rem;
+  }
+
+  .visit-page-info {
+    margin-top: -1rem;
+    width: 70%;
+    padding: 0;
+  }
+  .opening-hours-list {
+    width: 80%;
+    margin-top: -1rem;
+    margin-left: 0rem;
+    font-size: 1.1rem;
+  }
+
+  .other-museum-info-container {
+    width: 95%;
+    height: auto;
+    padding: 0rem;
+    margin-top: 0rem;
+  }
+  .accessibility-info-text {
+    width: 60%;
+    margin-top: -1rem;
+  }
+  .food-info-text {
+    width: 60%;
+    margin-top: -1rem;
+    margin-left: 8rem;
+  }
+
+  .shop-title {
+    width: 107%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .shop-info-text {
+    width: 60%;
+    margin-top: -1rem;
+    margin-left: 8rem;
+  }
+
+  .footer-rocket {
+    rotate: 129deg;
+    height: 5rem;
+    margin-left: 5rem;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 430px) {
+  .visit-page-title {
+    display: flex;
+    width: 15rem;
+    height: 3rem;
+    margin: 0.5rem auto;
+    margin-bottom: 1rem;
+  }
+  .visit-page-overall-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .museum-info {
+    width: 95%;
+    height: 30rem;
+    padding: 0.1rem;
+    margin-top: 0rem;
+  }
+  .located-title {
+    margin-top: 1rem;
+    padding: 0.2rem;
+  }
+  .Admission-title {
+    margin-top: -1rem;
+  }
+  .visit-page-location {
+    width: 80%;
+    margin-top: -1rem;
+  }
+  .visit-page-info {
+    margin-top: -1rem;
+    width: 80%;
+    padding: 0;
+  }
+  .opening-hours-list {
+    font-size: 1rem;
+    margin-top: -1rem;
+    margin-left: 0rem;
+    width: 60%;
+  }
+  .other-museum-info-container {
+    width: 90%;
+    height: auto;
+    padding: 0rem;
+    margin-top: -4rem;
+  }
+  .accessibility-info-text {
+    width: 70%;
+    margin-top: -1rem;
+  }
+  .food-info-text {
+    width: 50%;
+    margin-top: -1rem;
+    margin-left: 8rem;
+  }
+  .shop-title {
+    width: 108%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .shop-info-text {
+    width: 60%;
+    margin-top: 1rem;
+    margin-left: 8rem;
+  }
+  .footer-rocket {
+    height: 5rem;
+    margin-left: 5rem;
+    rotate: 129deg;
+  }
+}

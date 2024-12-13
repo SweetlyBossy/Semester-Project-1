@@ -1,0 +1,79 @@
+.get-involved-page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 2rem;
+  margin: 0.5rem auto;
+  border: solid black 2px;
+  border-radius: 2rem;
+  background-image: url("../IMG/william-bout-264826.jpg");
+}
+.get-involved-overall-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.5%;
+  margin-top: 2rem;
+}
+.get-involved-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  border: solid 3px black;
+  border-radius: 2rem;
+  background-color: rgb(218, 166, 208);
+}
+.get-involved-img {
+  width: 100%;
+  height: 15rem;
+  border-radius: 2rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .get-involved-overall-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .get-involved-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+  }
+  .get-involved-img {
+    width: 100%;
+    height: 15rem;
+  }
+}
+@media (min-width: 430px) and (max-width: 768px) {
+  .get-involved-overall-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .get-involved-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+  }
+  .get-involved-img {
+    width: 100%;
+    height: 15rem;
+  }
+}
+@media (min-width: 350px) and (max-width: 430px) {
+  .get-involved-overall-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .get-involved-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+  }
+  .get-involved-img {
+    width: 100%;
+    height: 15rem;
+  }
+}

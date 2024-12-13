@@ -1,0 +1,140 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+.exhibition-page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 2rem;
+  margin: 0.5rem auto;
+  border: solid black 2px;
+  border-radius: 2rem;
+  background-image: url("../IMG/william-bout-264826.jpg");
+}
+.exhibition-page-overll-comtainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5%;
+  padding-left: 1rem;
+}
+.exhibition-img {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  border: solid black 3px;
+  border-radius: 2rem;
+}
+.exhibition-part-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.text-and-title-container {
+  width: 100%;
+  padding: 2rem;
+  border: solid black 3px;
+  border-radius: 2rem;
+  background-color: rgba(200, 162, 222, 1);
+}
+.footer-rocket {
+  height: 10rem;
+  margin-left: 80rem;
+  border-radius: 2rem;
+  rotate: 129deg;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .footer-rocket {
+    height: 10rem;
+    margin-left: 50rem;
+    rotate: 129deg;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .exhibition-page-overll-comtainer {
+    gap: 2.5%;
+    padding: 0;
+  }
+  .exhibition-img {
+    width: 97%;
+    height: 9rem;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .exhibition-part-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .text-and-title-container {
+    width: 97%;
+    padding: 0.5rem;
+    margin-bottom: 0.1rem;
+  }
+  .footer-rocket {
+    height: 10rem;
+    margin-left: 40rem;
+    rotate: 129deg;
+  }
+}
+@media (min-width: 430px) and (max-width: 768px) {
+  .exhibition-page-overll-comtainer {
+    gap: 2.5%;
+    padding: 0rem;
+  }
+  .exhibition-img {
+    width: 100%;
+    height: 9rem;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .exhibition-part-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .text-and-title-container {
+    width: 100%;
+    padding: 0rem;
+    margin-bottom: 0.1rem;
+  }
+  .footer-rocket {
+    height: 10rem;
+    margin-left: 5rem;
+    rotate: 129deg;
+  }
+}
+@media (min-width: 350px) and (max-width: 430px) {
+  .exhibition-page-overll-comtainer {
+    gap: 2.5%;
+    padding: 0;
+  }
+  .exhibition-img {
+    width: 90%;
+    height: 10rem;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  .exhibition-part-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .text-and-title-container {
+    width: 80%;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .footer-rocket {
+    width: 7rem;
+    height: 10rem;
+    margin-left: 9rem;
+    rotate: 120deg;
+  }
+}
